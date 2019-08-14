@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test work</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+</head>
+<body>
+<header class="header">
+    <nav class="nav">
+        <div id="logo">
+            <img src="img/logo.png" alt="Самая лучшая компания" width="273px" height="100px">
+        </div>
+        <div id="phone">
+            <p>+7(499) 777-77-77 <br>
+                +7(499) 777-77-77</p>
+        </div>
+    </nav>
+</header>
+<div class="main1">
+    <div class="main1_form">
+        <h1>форма с кнопкой</h1>
+        <div class="form">
+            <p>
+                оставь телефон и получи
+                что-то офигенное
+            </p>
+            <label>
+                <input type="text" class="input" placeholder="Введите номер">
+                <button class="btn">получить</button>
+            </label>
+
+        </div>
+    </div>
+</div>
+<div class="main2">
+    <h1 id="slide">Тут у нас слайдер</h1>
+    <div class="wrapper">
+        <div class="slider">
+            <div class="item">
+                <div class="slide1"><h1>1</h1></div>
+            </div>
+
+            <div class="item">
+                <div class="slide2"><h1>2</h1></div>
+            </div>
+
+            <div class="item">
+                <div class="slide3"><h1>3</h1></div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-dots">
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+    </div>
+</div>
+<div class="main3">
+    <h1>
+        просто текстовый блок
+    </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere quis arcu sit amet commodo. Nullam ac dui lacus. Nulla dapibus interdum interdum. Curabitur ut diam nisl. Vivamus libero lacus, viverra at dolor sit amet, commodo faucibus orci. Vivamus laoreet ornare nisi, id pharetra tellus ullamcorper volutpat. Sed lacinia placerat accumsan. Praesent pharetra ipsum scelerisque, sodales urna ut, placerat nulla. Duis nunc urna, semper non arcu ut, sagittis dapibus lorem. Nunc nec urna id velit sodales sodales. Sed porttitor quam eget mollis consequat. Curabitur aliquet nec dui eget aliquet. Nulla in risus ante.</p>
+</div>
+<div class="main4">
+    <h1>Калькулятор<br>
+        (стоимость пользователь узнает по телефону)</h1>
+    <div class="windows">
+        <div id="window1" class="window-flex"><img src="img/1window.png" alt="Window1"><p id="paragraph1">Одностворчатое</p></div>
+        <div id="window2" class="window-flex"><img src="img/2window.png" alt="Window2"><p id="paragraph2">Двухстворчатое</p></div>
+        <div id="window3" class="window-flex"><img src="img/3window.png" alt="Window3"><p id="paragraph3">Трехстворчатое</p></div>
+        <div id="window4" class="window-flex"><img src="img/4window.png" alt="Window4"><p id="paragraph4">Балконный блок</p></div>
+        <div id="window5" class="window-flex"> <img src="img/5window.png" alt="Window5"><p id="paragraph5">Остекление балкона</p></div>
+    </div>
+</div>
+<div class="main5">
+    <div class="wrapper_end">
+        <div class="window_param_content">
+            <div class="window_content">
+                <p id="height">высота</p>
+                <div id="width"><p>ширина</p><img src="img/window_content.png" alt=""></div>
+            </div>
+            <div class="params">
+                <div id="width_param"><p>ширина, см</p>
+                    <h1>120</h1></div>
+                <h1 id="x_param">X</h1>
+                <div id="height_param"><p>высота, см</p>
+                    <h1>120</h1></div>
+            </div>
+        </div>
+        <div class="inputs_content">
+            <h1 id="KBE_window">Одностворчатое окно KBE</h1>
+            <h2>1. Критерий выбора </h2>
+            <div id="radio">
+                <label>
+                    <input type="radio">
+                    <p>пункт выбора 1</p>
+                </label>
+                <label>
+                    <input type="radio">
+                    <p>пункт выбора 2</p>
+                </label>
+                <label>
+                    <input type="radio">
+                    <p>пункт выбора 3</p>
+                </label>
+            </div>
+            <h1 id="window_open">
+                2. Выберите открывание створки
+            </h1>
+            <div class="select">
+                <div id="arrow"></div>
+                <select name="select" id="select">
+                    <option value="option1">Не открывается</option>
+                    <option value="option2">Закрывается</option>
+                    <option value="option3">Открывается</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="inputs">
+        <div id="inputimg"></div>
+        <input type="text" placeholder="Введите номер">
+        <button>рассчитать</button>
+    </div>
+</div>
+<footer class="footer">
+    <h3>просто <br>
+        скромный футер</h3>
+</footer>
+<div id="my_modal" class="modal">
+    <div class="modal_content">
+        <p class="inner"></p>
+        <span class="close_modal_window">×</span>
+    </div>
+</div>
+<script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Myriad Pro - Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro - Semibold it';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+}

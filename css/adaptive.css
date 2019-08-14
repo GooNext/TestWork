@@ -1,0 +1,106 @@
+@media screen and (max-width: 900px){
+    .main5 {
+        width: 80%;
+        height: 100%;
+    }
+    .wrapper_end {
+        display: flex;
+        flex-direction: column;
+        align-items: center!important;
+    }
+    .main1 .main1_form {
+        margin: 0 auto;
+        width: 500px;
+    }
+    .main1 .form {
+        width: 258px;
+        height: 175px;
+    }
+    .main1 .form p {
+        font-size: 15px;
+        width: auto;
+    }
+    .main1 .form input.input {
+        width: 160px;
+        height: 25px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .main1 .form button.btn {
+        width: 190px;
+        height: 29px;
+        font-size: 15px;
+    }
+    .main5 .inputs_content {
+        text-align: center;
+        margin-left: 70px;
+    }
+    .main5 #radio{
+        flex-direction: column;
+    }
+    .main5 .select #arrow {
+        margin-left: 380px;
+    }
+    .main5 #inputs {
+        display: flex;
+        margin: 50px 0 50px 25%;
+        height: 120px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .main5 #inputs button{
+        margin-left: 0;
+    }
+    .main5 #inputs #inputimg {
+        margin-top: 1.5px;
+    }
+    .main4 .windows{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main4 {
+        width: 500px;
+    }
+    .main4 .windows #paragraph1, .main4 .windows #paragraph2, .main4 .windows #paragraph3 {
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:850px){
+    .main3 p {
+        text-align: center;
+        width: 550px;
+    }
+    .main2 .wrapper {
+        width: 500px;
+    }
+}
+@media screen and (max-width:1070px){
+    header.header nav.nav {
+        justify-content: space-around;
+        align-items: center;
+    }
+    header.header #phone{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    header.header {
+        height: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    footer.footer h3 {
+        width: 500px;
+    }
+}
+@media screen and (max-width:900px){
+    header.header nav.nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 500px;
+    }
+}
+
+
+
